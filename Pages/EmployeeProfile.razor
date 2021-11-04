@@ -10,9 +10,9 @@ else
         @foreach (var emp in EmployeesProfile)
         {
             <div class="card m-3" style="min-width:18rem; max-width:30%">
-                <img class="ImageThumbnail" src="@emp.Photopath" />
+                <img class="card-img-top img-thumbnail" src="@emp.Photopath" />
                 <div class="card-header">
-                        <span class="tag tag-pink">Profile</span>
+                        <span class="tagnew tagnew-pink">Profile</span>
                         <h4><b>
                             @emp.FirstName @emp.LastName</b>
                         </h4>

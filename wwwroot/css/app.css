@@ -83,7 +83,7 @@ a, .btn-link {
     height: 30px;
 }
 
-.tag {
+.tagnew {
   background: #cccccc;
   border-radius: 50px;
   font-size: 12px;
@@ -93,13 +93,13 @@ a, .btn-link {
   text-transform: uppercase;
   cursor: pointer;
 }
-.tag-teal {
+.tagnew-teal {
   background-color: #47bcd4;
 }
-.tag-purple {
+.tagnew-purple {
   background-color: #5e76bf;
 }
-.tag-pink {
+.tagnew-pink {
   background-color: #cd5b9f;
 }
 
