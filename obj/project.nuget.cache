@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VCP9DdhOrop+mYqKaGE2JaI3bxFUxrQTVVWK7o3NDXne+0k2UQv563amuhZXG0ZDu8Sd+M5Jn1bOke7MfM7ouQ==",
+  "dgSpecHash": "LXIE4de763Bi32Aj5Jq/Zd+j4aVr3R0fYXOz3Fckm5UzeFqzsTzAmnpIHD/hWHLxn9y8lQ8bNKWXSNlmPJsKZQ==",
   "success": true,
-  "projectFilePath": "C:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj",
+  "projectFilePath": "c:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.9\\microsoft.aspnetcore.authorization.5.0.9.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.9\\microsoft.aspnetcore.components.5.0.9.nupkg.sha512",
