@@ -233,6 +233,39 @@
         }
       },
       {
+        "HashCode": -1700607903,
+        "Kind": "Components.Component",
+        "Name": "BlazorUts72190277.Pages.EmployeeProfile",
+        "AssemblyName": "BlazorUts72190277",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeProfile"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUts72190277.Pages.EmployeeProfile"
+        }
+      },
+      {
+        "HashCode": -558387182,
+        "Kind": "Components.Component",
+        "Name": "BlazorUts72190277.Pages.EmployeeProfile",
+        "AssemblyName": "BlazorUts72190277",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorUts72190277.Pages.EmployeeProfile"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUts72190277.Pages.EmployeeProfile",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 153693696,
         "Kind": "Components.Component",
         "Name": "BlazorUts72190277.Pages.Counter",

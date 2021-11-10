@@ -6,20 +6,24 @@
 }
 else
 {
-        <div class="card">
-            <div class="title h4 text-center mt-4">Detail Profile Employee</div>
-            <div class="card-block px-6">
-                <div class="card-text">
-                   <p>Employee Id : @Employees.EmployeeId</p>
-                    <p>First Name : @Employees.FirstName</p>
-                    <p>Last Name : @Employees.LastName</p>
+            <div class="row justify-content-center m-3">
+                <div class="col-sm-6-mt-3">
+                    <center><h1 class="tag2 tag2-pink"> @Employees.FirstName @Employees.LastName</h1></center>
+                <div class="card-header text-center">
+                    <center><img src="@Employees.Photopath" @onmousemove="@Mouse_Move"></center>
+                   <h5> @Coordinate </h5>
+                    <p>Employee Id : @Employees.EmployeeId</p>
                     <p>Email : @Employees.Email</p>
                     <p>Date Of Birth : @Employees.DateOfBirth</p>
                     <p>Gender : @Employees.Gender</p>
                     <p>Department Name : @Employees.Department.DepartmentName</p>
-                    <p>Photo : </p>
-                    <img src="@Employees.Photopath" width="200" height="200"/>
+                </div>
+                <center><button class="btn btn-outline-primary btn-lg" @onclick = "@Btn_Click">@ButtonText </button></center>
+                <div class="card-footer text-center @CssClass"> 
+                    <a href="/employeeprofile" class="btn btn-outline-primary btn-lg"> Back</a>
+                    <a href="#" class="btn btn-outline-success btn-lg"> Edit</a>
+                    <a href="#" class="btn btn-outline-danger btn-lg"> Delete</a>
+                </div>
                 </div>
             </div>
-        </div>
 }

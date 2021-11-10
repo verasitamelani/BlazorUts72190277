@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj": {}
+    "C:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj": {}
   },
   "projects": {
-    "c:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj": {
+    "C:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj",
+        "projectUniqueName": "C:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj",
         "projectName": "BlazorUts72190277",
-        "projectPath": "c:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj",
+        "projectPath": "C:\\Frontend\\BlazorUts72190277\\BlazorUts72190277.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "c:\\Frontend\\BlazorUts72190277\\obj\\",
+        "outputPath": "C:\\Frontend\\BlazorUts72190277\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
