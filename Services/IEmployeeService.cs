@@ -10,5 +10,6 @@ namespace BlazorUts72190277.Services
     {
         Task<IEnumerable<Employee>> GetAll();
         Task<Employee> GetById(int id);
+        Task<Employee> Update(int id, Employee employee);
     }
 }

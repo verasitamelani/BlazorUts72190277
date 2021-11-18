@@ -16,7 +16,7 @@ namespace BlazorUts72190277.Pages
         [Inject]
         public IEmployeeService EmployeeService { get; set; }
 
-        public Employee Employees  { get; set; } = new Employee();
+        public Employee Employees { get; set; } = new Employee();
 
         protected async override Task OnInitializedAsync()
         {

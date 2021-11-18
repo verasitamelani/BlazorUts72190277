@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Text.Json;
 using System.Threading.Tasks;
 using BlazorUts72190277.Models;
 
@@ -26,6 +27,15 @@ namespace BlazorUts72190277.Services
         {
             var result = await _httpClient.GetFromJsonAsync<Employee>($"api/Employees/{id}");
             return result;
+        }
+
+        public async Task<Employee> Update(int id, Employee employee){
+            var response = await _httpClient.PutAsJsonAsync($"api/Employees/{id}",employee);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+            }else{
+                throw new Exception("Gagal Update");
+            }
         }
     }
 }
