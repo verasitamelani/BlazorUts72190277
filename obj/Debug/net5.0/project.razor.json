@@ -8,6 +8,59 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 583243950,
+        "Kind": "Components.Component",
+        "Name": "BlazorUts72190277.Pages.AddEmployee",
+        "AssemblyName": "BlazorUts72190277",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUts72190277.Pages.AddEmployee"
+        }
+      },
+      {
+        "HashCode": -336011141,
+        "Kind": "Components.Component",
+        "Name": "BlazorUts72190277.Pages.AddEmployee",
+        "AssemblyName": "BlazorUts72190277",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorUts72190277.Pages.AddEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUts72190277.Pages.AddEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1531202199,
         "Kind": "Components.Component",
         "Name": "BlazorUts72190277.Pages.DepartmentPage",
@@ -13322,6 +13375,11 @@
     {
       "FilePath": "c:\\Frontend\\BlazorUts72190277\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Frontend\\BlazorUts72190277\\Pages\\AddEmployee.razor",
+      "TargetPath": "Pages\\AddEmployee.razor",
       "FileKind": "component"
     },
     {
