@@ -21,18 +21,23 @@ namespace BlazorUts72190277.Pages
         public List<Department> Departments{ get; set;} = new List<Department>();
 
         [Parameter]
-        public string Id{ get; set; }
+        public string id{ get; set; }
 
         protected async override Task OnInitializedAsync()
         {
-            Employee = await Employeeservice.GetById(int.Parse(Id));
+            Employee = await Employeeservice.GetById(int.Parse(id));
             Departments = (await DepartmentService.GetAll()).ToList();
+        }
+
+        protected async Task Delete_click(){
+            await Employeeservice.Delete(Employee.EmployeeId);
+            NavigationManager.NavigateTo("/employeeprofile");
         }
 
         protected async Task HandleValidSubmit(){
             Employee.Photopath = "images/nophoto.jpg";
-            Employee results = await Employeeservice.Update(int.Parse(Id), Employee);
-            NavigationManager.NavigateTo("employeeprofile");
+            Employee results = await Employeeservice.Update(int.Parse(id), Employee);
+            NavigationManager.NavigateTo("/employeeprofile");
         }
 
     }

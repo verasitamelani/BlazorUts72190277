@@ -61,6 +61,59 @@
         }
       },
       {
+        "HashCode": -1935034744,
+        "Kind": "Components.Component",
+        "Name": "BlazorUts72190277.Pages.DeleteEmployee",
+        "AssemblyName": "BlazorUts72190277",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DeleteEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUts72190277.Pages.DeleteEmployee"
+        }
+      },
+      {
+        "HashCode": -74240804,
+        "Kind": "Components.Component",
+        "Name": "BlazorUts72190277.Pages.DeleteEmployee",
+        "AssemblyName": "BlazorUts72190277",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorUts72190277.Pages.DeleteEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUts72190277.Pages.DeleteEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1531202199,
         "Kind": "Components.Component",
         "Name": "BlazorUts72190277.Pages.DepartmentPage",
@@ -253,7 +306,7 @@
         }
       },
       {
-        "HashCode": -1745905000,
+        "HashCode": -405087288,
         "Kind": "Components.Component",
         "Name": "BlazorUts72190277.Pages.EditEmployee",
         "AssemblyName": "BlazorUts72190277",
@@ -266,10 +319,10 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Id",
+            "Name": "id",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Id"
+              "Common.PropertyName": "id"
             }
           }
         ],
@@ -279,7 +332,7 @@
         }
       },
       {
-        "HashCode": -1759476649,
+        "HashCode": -1135484193,
         "Kind": "Components.Component",
         "Name": "BlazorUts72190277.Pages.EditEmployee",
         "AssemblyName": "BlazorUts72190277",
@@ -292,10 +345,10 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Id",
+            "Name": "id",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Id"
+              "Common.PropertyName": "id"
             }
           }
         ],
@@ -13440,6 +13493,11 @@
     {
       "FilePath": "c:\\Frontend\\BlazorUts72190277\\Pages\\DepartmentPage.razor",
       "TargetPath": "Pages\\DepartmentPage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Frontend\\BlazorUts72190277\\Pages\\DeleteEmployee.razor",
+      "TargetPath": "Pages\\DeleteEmployee.razor",
       "FileKind": "component"
     },
     {

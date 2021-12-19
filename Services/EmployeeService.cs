@@ -49,9 +49,9 @@ namespace BlazorUts72190277.Services
             }
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            await _httpClient.DeleteAsync($"api/Employees/{id}");
         }
     }
 }

@@ -14,7 +14,6 @@ namespace BlazorUts72190277.Pages
 
         [Inject]
         public IEmployeeService EmployeeService { get; set; }
-        
         protected async override Task OnInitializedAsync()
         {
             EmployeesProfile = (await EmployeeService.GetAll()).ToList();    

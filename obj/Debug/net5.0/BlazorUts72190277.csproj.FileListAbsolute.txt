@@ -646,3 +646,5 @@ C:\Frontend\BlazorUts72190277\obj\Debug\net5.0\RazorDeclaration\Pages\EditEmploy
 C:\Frontend\BlazorUts72190277\obj\Debug\net5.0\Razor\Pages\EditEmployee.razor.g.cs
 C:\Frontend\BlazorUts72190277\obj\Debug\net5.0\RazorDeclaration\Pages\AddEmployee.razor.g.cs
 C:\Frontend\BlazorUts72190277\obj\Debug\net5.0\Razor\Pages\AddEmployee.razor.g.cs
+C:\Frontend\BlazorUts72190277\obj\Debug\net5.0\RazorDeclaration\Pages\DeleteEmployee.razor.g.cs
+C:\Frontend\BlazorUts72190277\obj\Debug\net5.0\Razor\Pages\DeleteEmployee.razor.g.cs

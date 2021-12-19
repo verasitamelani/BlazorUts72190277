@@ -65,5 +65,8 @@
             @bind-Value="Employee.Photopath"/> </div>
     </div>
     <button class="btn btn-primary" type="submit"> Save </button>
+    @if(Employee.EmployeeId>0){
+        <button class="btn btn-danger" type="button" @onclick="Delete_click"> Delete </button>
+    }
 </EditForm>
 
